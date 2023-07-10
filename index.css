@@ -6,10 +6,11 @@
 
 .banner-container{
     display: flex;
+    height: 100vh;
     align-items: center;
     justify-content: space-evenly;
     background-color: #E554731A;
-    padding: 50px 50px 0px 150px;
+    padding: 60px 80px 0px 50px;
 }
 .banner-desc{
     padding: 50px;
@@ -22,12 +23,12 @@
 
 }
 .flower-banner{
-    height: 420px;
-    width: 500px;
+    height: 570px;
+    width: 400px;
     margin-bottom: 0%;
 }
 .banner-header{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #272727;
     font-family: Lato;
     font-size: 50px;
@@ -37,15 +38,56 @@
 .banner-massage{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-  
-    margin-bottom: 10px;
+    gap: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 .btn{
     display: inline-flex;
-padding: 10px 33px;
-align-items: flex-start;
-gap: 10px;
+    padding: 10px 33px;
+    align-items: flex-start;
+    gap: 10px;
     background-color: #E55473;
     border: none;
     color: white;
 }
+.featured-container{
+    width: 100vh;
+    display: contents;
+    justify-content: center;
+    
+}
+.featured-img{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.featured-flower{
+    width: 264px;
+    height: 338px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.Flower{
+    width: 100px;
+    height: 200px;
+   
+}
+
+.featured-desc > p,h2{
+    text-align: center;
+}
+.featured-desc {
+    margin-top: 100px ;
+}
+.featured-header{
+    font-weight: 700;
+}
+.featured-para{
+    font-size: 12px;
+    padding: 10px;
+}
+
+    
