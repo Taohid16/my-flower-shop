@@ -176,15 +176,14 @@
 }
 .instagram-img-flower{
     height: 260px;
-    width: 2700px;
+    width: 270px;
     margin: 10px;
 }
 .deals-section{
-    text-align: center;
+    background-image: url(./Flower-Asset/Rectangle\ 9.png);
     height: 50vh;
+    text-align: center;
+    margin-top: 50px;
     width: 80%;
-    margin-top: 60px;
-    background-image: url("Rectangle\ 9.png");
     margin-left: 130px;
-    
 }
