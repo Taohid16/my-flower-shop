@@ -6,7 +6,7 @@
 
 .banner-container{
     display: flex;
-    height: 100vh;
+    height: 98vh;
     align-items: center;
     justify-content: space-evenly;
     background-color: #E554731A;
@@ -63,17 +63,40 @@
     gap: 5px;
     
 }
-.featured-flower{
-    width: 264px;
+.featured-flower1{
+    width: 300px;
     height: 338px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.featured-flower2{
+    width: 300px;
+    height: 338px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.featured-flower3{
+    width: 300px;
+    height: 338px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
 .Flower{
-    width: 100px;
-    height: 200px;
-   
+    width: 250px;
+    height: 300px;
+    margin: 35px  30px;
 }
 
 .featured-desc > p,h2{
@@ -83,11 +106,21 @@
     margin-top: 100px ;
 }
 .featured-header{
-    font-weight: 700;
+    font-weight: 900;
 }
 .featured-para{
     font-size: 12px;
-    padding: 10px;
+    padding: 30px;
 }
-
-    
+.order-section{
+    display: flex;
+    height: 30vh;
+    margin-top: 80px;
+    width: 100%;
+    background-color: rgba(39, 39, 39, 0.05);;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin-left: 190px;
+}
