@@ -115,12 +115,67 @@
 .order-section{
     display: flex;
     height: 30vh;
-    margin-top: 80px;
+    margin-top: 170px;
     width: 100%;
     background-color: rgba(39, 39, 39, 0.05);;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    width: 72%;
+    margin-left: 180px;
+}
+.sign-up-container{
+    display: flex;
+    justify-content: space-around;
+    height: 65vh;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 60px;
+
+}
+.sign-flower{
+    height: 250px;
+    width: 200px;
+}
+.sign-desc{
+    text-align: center;
+    margin-left: 150px;
+}
+.Off{
+    color:#E55473;
+}
+.sign-header{
+    margin-bottom: 15px;
+}
+.sign-para{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.sign-img{
+    margin-right: 150px;
+}
+.instagram{
+    text-align: center;
+    margin-top: 80px ;
+    margin-bottom: 40px;
+}
+.instagram-head{
+    margin-bottom: 20px;
+}
+.instagram-para{
+    font-size: 12px;
+}
+.instagram-img{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
     width: 70%;
-    margin-left: 190px;
+    align-items: center;
+    margin-left: 150px;
+}
+.instagram-img-flower{
+    height: 260px;
+    width: 2700px;
+    margin: 10px;
 }
