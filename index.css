@@ -179,3 +179,12 @@
     width: 2700px;
     margin: 10px;
 }
+.deals-section{
+    text-align: center;
+    height: 50vh;
+    width: 80%;
+    margin-top: 60px;
+    background-image: url("Rectangle\ 9.png");
+    margin-left: 130px;
+    
+}
