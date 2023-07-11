@@ -182,8 +182,41 @@
 .deals-section{
     background-image: url(./Flower-Asset/Rectangle\ 9.png);
     height: 50vh;
+    align-items: center;
     text-align: center;
     margin-top: 50px;
     width: 80%;
     margin-left: 130px;
+}
+.deals-desc{
+    padding: 70px;
+}
+.input-deals{
+    height: 40px;
+    width: 360px;
+    border: none;
+   
+}
+.end-item{
+    height: 25vh;
+    background-color:#111010;
+    margin-top: 40px;
+    text-align: center;
+    padding: 60px;
+}
+.end-flower{
+    color: #E55473;
+}
+.end-shop{
+    color: white;
+}
+.end-para{
+    color: rgba(255, 255, 255, 0.90);
+    margin-top: 20px;
+    font-size: 12px;
+}
+.end-para-author{
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 20px;
+    font-size: 10px;
 }
